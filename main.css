@@ -1,0 +1,55 @@
+.container{
+  margin: 0px 500px;
+  padding: 10px;
+  background: black;
+}
+#dropup {
+    position: relative;
+    z-index: 5;
+    width: 20px;
+    height: 300px;
+    padding: 50px;
+}
+
+.menu {
+    position: absolute;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 0%;
+}
+
+/* Yellow border */
+.menu:before {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    content: "";
+    background: lightblue;
+    z-index: -1;
+}
+
+#triangle {
+    width: 130px;
+    height: 80px;
+    top: 50px;
+}
+#large {
+    width: 100px;
+    height: 200px;
+}
+/*#comment_bubble {
+    width: 140px;
+    height: 100px;
+    background: #fff;
+    border: solid 2px lightblue;
+    position: relative;
+}
+.container{
+  width:500px;
+  height: auto;
+  background: black;
+  margin: 0 auto;
+  padding-left: 50px
+}*/
