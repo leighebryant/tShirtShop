@@ -1,322 +1,323 @@
-.container{
-  /*margin: 20px 30px;*/
-  padding: 0;
-  background: #fff;
-  border: solid 2px #5ca4d6;
-  height: 390px;
-  width: 350px;
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-
+.container {
+    padding: 0;
+    background: #fff;
+    border: solid 2px #5ca4d6;
+    height: 390px;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
 }
 
-div .container{
-  display: inline-block;
-  overflow: hidden;
-  position: absolute;
-
+div .container {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
 }
 
-ul#icons li{
-  list-style: none;
-  float: left;
-  width: 70px;
-  height: 40px;
-  margin: -1px;
-  border: 2px solid #5ca4d6;
-  border-left: 1px solid #5ca4d6;
-  border-right: 1px solid #5ca4d6;
-  border-top: 2px solid #5ca4d6;
-  display: inline-block;
-  position: relative;
-  line-height: 40px;
+ul#icons li {
+    list-style: none;
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin: -1px;
+    border: 2px solid #5ca4d6;
+    border-left: 1px solid #5ca4d6;
+    border-right: 1px solid #5ca4d6;
+    border-top: 2px solid #5ca4d6;
+    display: inline-block;
+    position: relative;
+    line-height: 40px;
 }
 
-ul#icons{
-  margin:-1px 0;
-  padding: 0 0;
-  position: relative;
-  overflow: hidden;
-  top:12px;
-  border-top: 1px solid #5ca4d6;
+ul#icons {
+    margin: -1px 0;
+    padding: 0 0;
+    position: relative;
+    overflow: hidden;
+    top: 12px;
+    border-top: 1px solid #5ca4d6;
 }
 
-ul li i{
-  color: #5ca4d6;
-  padding:12px 28px;
-  font-family: sans-serif;
-  font-style: normal;
+ul li i {
+    color: #5ca4d6;
+    padding: 12px 28px;
+    font-family: sans-serif;
+    font-style: normal;
 }
 
-ul li:hover{
-  background-color: #5ca4d6;
-}
-#shirt{
-  padding:20px 23.5px;
-  height:75%;
-  width:auto;
+ul li:hover {
+    background-color: #5ca4d6;
 }
 
-ul li i:hover{
-  color: white;
+#shirt {
+    padding: 20px 23.5px;
+    height: 75%;
+    width: auto;
 }
 
-p{
-left: 10px;
-top:10px;
-margin: -5px 25px;
+ul li i:hover {
+    color: white;
 }
 
-.the-box{
-  width: 25px;
-  height:25px;
-  background: #5ca4d6;
-  margin: 6px 20px;
-  border: 2px solid white;
+p {
+    left: 10px;
+    top: 10px;
+    margin: -5px 25px;
 }
 
-#pinkbox{
-  background-color: #d583ac;
+.the-box {
+    width: 25px;
+    height: 25px;
+    background: #5ca4d6;
+    margin: 6px 20px;
+    border: 2px solid white;
 }
 
-#yellowbox{
-  background-color: #deb17e;
+#pinkbox {
+    background-color: #d583ac;
 }
 
-.spin i{
-  right: -2px;
-  top: -2px;
-  position: absolute;
-  background-color: white;
-  border: 2px solid #5ca4d6;
-  width: 20px;
-  height: 23px;
-  color: #5ca4d6;
-  padding-left: 8px;
-  padding-top: 5px;
-}
-.spin i:hover{
-  background-color: #5ca4d6;
-  color: white;
+#yellowbox {
+    background-color: #deb17e;
 }
 
-.popup{
-  position: relative;
-  z-index: 1;
-  /*bottom: 207px;*/
-  bottom: 225px;
-  left:133px;
-  opacity: 0;
-  display: inline-block;
-  transition: .5s ease-in-out;
-
+.spin i {
+    right: -2px;
+    top: -2px;
+    position: absolute;
+    background-color: white;
+    border: 2px solid #5ca4d6;
+    width: 20px;
+    height: 23px;
+    color: #5ca4d6;
+    padding-left: 8px;
+    padding-top: 5px;
 }
 
-.popup:hover{
-  opacity:1;
-  bottom:207px;
+.spin i:hover {
+    background-color: #5ca4d6;
+    color: white;
 }
 
-.menu-container{
-  height: 175px;
-  width: 80px;
-  background-color: white;
-  position: absolute;
-  z-index: 3;
-  margin-left: 2px;
-  margin-top: 2px;
+.popup {
+    position: relative;
+    z-index: 1;
+    /*bottom: 207px;*/
+    bottom: 225px;
+    left: 133px;
+    opacity: 0;
+    display: inline-block;
+    transition: .5s ease-in-out;
 }
 
-.triangle-down{
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 10px 10px 0 10px;
-border-color: white transparent transparent transparent;
-position: absolute;
-top:175px;
-left: 30px;
+.popup:hover {
+    opacity: 1;
+    bottom: 207px;
 }
 
-
-.menubg{
-  position: relative;
-  background-color: #5ca4d6;
-  width: 84px;
-  height:179px;
-  overflow: hidden;
-  z-index: 1;
+.menu-container {
+    height: 175px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 
-.trianglebg{
- position: relative;
- width: 0;
- height: 0;
- border-style: solid;
- border-width: 11px 11px 0 11px;
- border-color: #5ca4d6 transparent transparent transparent;
- z-index: 1;
- left: 31px;
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 175px;
+    left: 30px;
 }
 
-div.popup2{
-  position: absolute;
-  bottom: 47px;
-  left: 203px;
-  opacity: 0;
-  display: inline-block;
-  z-index: 3;
-  transition: .5s ease-in-out;
-
-
+.menubg {
+    position: relative;
+    background-color: #5ca4d6;
+    width: 84px;
+    height: 179px;
+    overflow: hidden;
+    z-index: 1;
 }
 
-div.popup2:hover{
-  opacity: 1;
-  bottom: 29px;
+.trianglebg {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0 11px;
+    border-color: #5ca4d6 transparent transparent transparent;
+    z-index: 1;
+    left: 31px;
 }
 
-.menu-container2{
-  height: 80px;
-  width: 80px;
-  background-color: white;
-  position: absolute;
-  z-index: 3;
-  margin-left: 2px;
-  margin-top: 2px;
+div.popup2 {
+    position: absolute;
+    bottom: 47px;
+    left: 203px;
+    opacity: 0;
+    display: inline-block;
+    z-index: 3;
+    transition: .5s ease-in-out;
 }
 
-.triangle-down2{
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 10px 10px 0 10px;
-border-color: white transparent transparent transparent;
-position: absolute;
-top:80px;
-left: 30px;
+div.popup2:hover {
+    opacity: 1;
+    bottom: 29px;
 }
 
-
-.menubg2{
-  position: relative;
-  background-color: #5ca4d6;
-  width: 84px;
-  height:84px;
-  overflow: hidden;
-  z-index: 1;
+.menu-container2 {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 
-.trianglebg2{
- position: relative;
- width: 0;
- height: 0;
- border-style: solid;
- border-width: 11px 11px 0 11px;
- border-color: #5ca4d6 transparent transparent transparent;
- z-index: 1;
- left: 31px;
-}
- .footer{
-   width: 354px;
-   height: 450px;
-   position: relative;
-   overflow: hidden;
-   margin: 20px 30px;
-   padding: 0;
-  display: inline-block;
- }
-.description{
-  position: absolute;
-  top:405px;
-  left: 5px;
-  float: left;
-  font-family: sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  color: #5ca4d6;
-  font-weight: lighter;
-}
-.price{
-  position: absolute;
-  float: right;
-  font-family: sans-serif;
-  font-size: 24px;
-  top: 405px;
-  right:5px;
-  color: #5ca4d6;
-
+.triangle-down2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 80px;
+    left: 30px;
 }
 
-.colorbox{
-  width: 27px;
-  height:27px;
-  background-color: black;
-  list-style: none;
-  margin: 5px;
-  right: 1px;
-  bottom:13px;
-  position: relative;
-  float: left;
+.menubg2 {
+    position: relative;
+    background-color: #5ca4d6;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.colorbox2{
-  width: 27px;
-  height:27px;
-  background-color: black;
-  list-style: none;
-  margin: 5px;
-  right: 40px;
-  bottom:87px;
-  position: relative;
-  float: right;
-}
-#topleft{
-  background-color:#5ca4d6;
-}
-#topright{
-  background-color: #d583ac;
-}
-#bottomleft{
-  background-color: #deb17e;
-}
-#bottomright{
-  background-color: #8bb992;
+.trianglebg2 {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0 11px;
+    border-color: #5ca4d6 transparent transparent transparent;
+    z-index: 1;
+    left: 31px;
 }
 
-ol.shirtsizes{
-  list-style: none;
-  left:22px;
-  position: absolute;
-  padding:0;
-  top:-5px;
+.footer {
+    width: 354px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 30px;
+    padding: 0;
+    display: inline-block;
 }
 
-ol.shirtsizes li{
-  padding: 3px 0;
+.description {
+    position: absolute;
+    top: 405px;
+    left: 5px;
+    float: left;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    color: #5ca4d6;
+    font-weight: lighter;
 }
 
-ol.shirtsizes2 li{
-  padding:12px 0;
-}
-ol.shirtsizes2{
-  font-size: 12px;
-  list-style: none;
-  font-family: sans-serif;
-  color: #5ca4d6;
-  left:-18.5px;
-  top:0px;
-  position: relative;
+.price {
+    position: absolute;
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    top: 405px;
+    right: 5px;
+    color: #5ca4d6;
 }
 
-.icon-t-shirt{
- color: #5ca4d6;
- font-size: 28px;
+.colorbox {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    list-style: none;
+    margin: 5px;
+    right: 1px;
+    bottom: 13px;
+    position: relative;
+    float: left;
 }
 
-.hover{
-  background-color: red;
-  width:84px;
-  height: 220px;
+.colorbox2 {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    list-style: none;
+    margin: 5px;
+    right: 40px;
+    bottom: 87px;
+    position: relative;
+    float: right;
+}
+
+#topleft {
+    background-color: #5ca4d6;
+}
+
+#topright {
+    background-color: #d583ac;
+}
+
+#bottomleft {
+    background-color: #deb17e;
+}
+
+#bottomright {
+    background-color: #8bb992;
+}
+
+ol.shirtsizes {
+    list-style: none;
+    left: 22px;
+    position: absolute;
+    padding: 0;
+    top: -5px;
+}
+
+ol.shirtsizes li {
+    padding: 3px 0;
+}
+
+ol.shirtsizes2 li {
+    padding: 12px 0;
+}
+
+ol.shirtsizes2 {
+    font-size: 12px;
+    list-style: none;
+    font-family: sans-serif;
+    color: #5ca4d6;
+    left: -18.5px;
+    top: 0px;
+    position: relative;
+}
+
+.icon-t-shirt {
+    color: #5ca4d6;
+    font-size: 28px;
+}
+
+.hover {
+    background-color: red;
+    width: 84px;
+    height: 220px;
 }
