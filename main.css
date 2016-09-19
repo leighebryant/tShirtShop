@@ -18,7 +18,7 @@ div .container{
 
 }
 
-ul li{
+ul#icons li{
   list-style: none;
   float: left;
   width: 70px;
@@ -33,7 +33,7 @@ ul li{
   line-height: 40px;
 }
 
-ul{
+ul#icons{
   margin:-1px 0;
   padding: 0 0;
   position: relative;
@@ -104,12 +104,20 @@ margin: -5px 25px;
 .popup{
   position: relative;
   z-index: 1;
-  bottom: 207px;
+  /*bottom: 207px;*/
+  bottom: 225px;
   left:133px;
-  opacity: 1;
+  opacity: 0;
   display: inline-block;
+  transition: .5s ease-in-out;
 
 }
+
+.popup:hover{
+  opacity:1;
+  bottom:207px;
+}
+
 .menu-container{
   height: 175px;
   width: 80px;
@@ -154,12 +162,19 @@ left: 30px;
 
 div.popup2{
   position: absolute;
-  bottom: 29px;
+  bottom: 47px;
   left: 203px;
-  opacity: 1;
+  opacity: 0;
   display: inline-block;
   z-index: 3;
+  transition: .5s ease-in-out;
 
+
+}
+
+div.popup2:hover{
+  opacity: 1;
+  bottom: 29px;
 }
 
 .menu-container2{
@@ -268,4 +283,40 @@ left: 30px;
 }
 #bottomright{
   background-color: #8bb992;
+}
+
+ol.shirtsizes{
+  list-style: none;
+  left:22px;
+  position: absolute;
+  padding:0;
+  top:-5px;
+}
+
+ol.shirtsizes li{
+  padding: 3px 0;
+}
+
+ol.shirtsizes2 li{
+  padding:12px 0;
+}
+ol.shirtsizes2{
+  font-size: 12px;
+  list-style: none;
+  font-family: sans-serif;
+  color: #5ca4d6;
+  left:-18.5px;
+  top:0px;
+  position: relative;
+}
+
+.icon-t-shirt{
+ color: #5ca4d6;
+ font-size: 28px;
+}
+
+.hover{
+  background-color: red;
+  width:84px;
+  height: 220px;
 }
