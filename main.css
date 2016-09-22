@@ -1,21 +1,42 @@
+.colorbox {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    list-style: none;
+    margin: 5px;
+    right: 1px;
+    bottom: -3px;
+    position: relative;
+    float: left;
+}
+
+.colorbox2 {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    list-style: none;
+    margin: 5px;
+    right: 40px;
+    bottom: 71px;
+    position: relative;
+    float: right;
+}
+
+.color:hover .popup2 {
+    opacity: 1;
+    z-index: 10;
+    top: -83px;
+}
+
 .container {
     padding: 0;
     background: #fff;
     border: solid 2px #5ca4d6;
     height: 390px;
     width: 350px;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
 }
 
-div .container {
-    display: inline-block;
-    overflow: hidden;
-    position: absolute;
-}
-
-ul#icons li {
+.container ul.icons .nav {
     list-style: none;
     float: left;
     width: 70px;
@@ -25,39 +46,140 @@ ul#icons li {
     border-left: 1px solid #5ca4d6;
     border-right: 1px solid #5ca4d6;
     border-top: 2px solid #5ca4d6;
-    display: inline-block;
-    position: relative;
     line-height: 40px;
 }
 
-ul#icons {
+.container ul.icons {
     margin: -1px 0;
     padding: 0 0;
+    bottom: -12px;
     position: relative;
-    overflow: hidden;
-    top: 12px;
     border-top: 1px solid #5ca4d6;
 }
 
-ul li i {
+.container ul li.nav i {
     color: #5ca4d6;
     padding: 12px 28px;
     font-family: sans-serif;
     font-style: normal;
 }
 
-ul li:hover {
+.container ul li.nav:hover {
     background-color: #5ca4d6;
-}
-
-#shirt {
-    padding: 20px 23.5px;
-    height: 75%;
-    width: auto;
-}
-
-ul li i:hover {
     color: white;
+}
+
+.container ul li.nav i:hover {
+    background-color: #5ca4d6;
+    color: white;
+}
+
+.description {
+    position: absolute;
+    top: 405px;
+    left: 5px;
+    float: left;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    color: #5ca4d6;
+    font-weight: lighter;
+}
+
+div.container {
+    position: absolute;
+}
+
+.icon-t-shirt {
+    color: #5ca4d6;
+    font-size: 28px;
+}
+
+.main {
+    width: 354px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 30px;
+    padding: 0;
+    display: inline-block;
+
+    z-index: 1;
+}
+
+.menubg2 {
+    position: relative;
+    background-color: #5ca4d6;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menubg {
+    position: relative;
+    background-color: #5ca4d6;
+    width: 84px;
+    height: 179px;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.menu-container {
+    height: 175px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 5;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.menu-container2 {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 4;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.menu-container ol.shirtsizes {
+    list-style: none;
+    left: 22px;
+    position: absolute;
+    padding: 0;
+    top: -5px;
+}
+
+.menu-container ol.shirtsizes li {
+    padding: 3px 0;
+}
+
+.menu-container ol.shirtsizes2 li {
+    padding: 2px 0;
+    text-align: center;
+}
+
+.menu-container ol.shirtsizes2 {
+    font-size: 12px;
+    list-style: none;
+    font-family: sans-serif;
+    color: #5ca4d6;
+    left: -18.5px;
+    top: 0px;
+    position: relative;
+}
+
+ol div.popup2 {
+    position: ;
+    bottom: 47px;
+    left: 203px;
+    opacity: 1;
+    display: inline-block;
+    z-index: 3;
+    transition: .5s ease-in-out;
 }
 
 p {
@@ -66,20 +188,46 @@ p {
     margin: -5px 25px;
 }
 
-.the-box {
-    width: 25px;
-    height: 25px;
-    background: #5ca4d6;
-    margin: 6px 20px;
-    border: 2px solid white;
+.popup {
+    position: absolute;
+    z-index: 5;
+    top: -200px;
+    left: 134px;
+    opacity: 0;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    float: right;
 }
 
-#pinkbox {
-    background-color: #d583ac;
+.popup2 {
+    position: absolute;
+    top: -100px;
+    left: 203px;
+    opacity: 0;
+    float: left;
+    transition: .5s ease-in-out;
 }
 
-#yellowbox {
-    background-color: #deb17e;
+.price {
+    position: absolute;
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    top: 405px;
+    right: 5px;
+    color: #5ca4d6;
+}
+
+.shirt {
+    padding: 20px 23.5px;
+    height: 75%;
+    width: auto;
+}
+
+.size:hover .popup {
+    opacity: 1;
+    z-index: 10;
+    top: -178px;
 }
 
 .spin i {
@@ -100,30 +248,23 @@ p {
     color: white;
 }
 
-.popup {
+.the-box {
+    width: 25px;
+    height: 25px;
+    background: #5ca4d6;
+    margin: 6px 20px;
+    border: 2px solid white;
+}
+
+.trianglebg {
     position: relative;
-    z-index: 1;
-    /*bottom: 207px;*/
-    bottom: 225px;
-    left: 133px;
-    opacity: 0;
-    display: inline-block;
-    transition: .5s ease-in-out;
-}
-
-.popup:hover {
-    opacity: 1;
-    bottom: 207px;
-}
-
-.menu-container {
-    height: 175px;
-    width: 80px;
-    background-color: white;
-    position: absolute;
-    z-index: 3;
-    margin-left: 2px;
-    margin-top: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0 11px;
+    border-color: #5ca4d6 transparent transparent transparent;
+    z-index: 4;
+    left: 31px;
 }
 
 .triangle-down {
@@ -135,51 +276,7 @@ p {
     position: absolute;
     top: 175px;
     left: 30px;
-}
-
-.menubg {
-    position: relative;
-    background-color: #5ca4d6;
-    width: 84px;
-    height: 179px;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.trianglebg {
-    position: relative;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 11px 11px 0 11px;
-    border-color: #5ca4d6 transparent transparent transparent;
-    z-index: 1;
-    left: 31px;
-}
-
-div.popup2 {
-    position: absolute;
-    bottom: 47px;
-    left: 203px;
-    opacity: 0;
-    display: inline-block;
-    z-index: 3;
-    transition: .5s ease-in-out;
-}
-
-div.popup2:hover {
-    opacity: 1;
-    bottom: 29px;
-}
-
-.menu-container2 {
-    height: 80px;
-    width: 80px;
-    background-color: white;
-    position: absolute;
-    z-index: 3;
-    margin-left: 2px;
-    margin-top: 2px;
+    z-index: 5;
 }
 
 .triangle-down2 {
@@ -193,15 +290,6 @@ div.popup2:hover {
     left: 30px;
 }
 
-.menubg2 {
-    position: relative;
-    background-color: #5ca4d6;
-    width: 84px;
-    height: 84px;
-    overflow: hidden;
-    z-index: 1;
-}
-
 .trianglebg2 {
     position: relative;
     width: 0;
@@ -213,111 +301,26 @@ div.popup2:hover {
     left: 31px;
 }
 
-.footer {
-    width: 354px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    margin: 20px 30px;
-    padding: 0;
-    display: inline-block;
-}
-
-.description {
-    position: absolute;
-    top: 405px;
-    left: 5px;
-    float: left;
-    font-family: sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    color: #5ca4d6;
-    font-weight: lighter;
-}
-
-.price {
-    position: absolute;
-    float: right;
-    font-family: sans-serif;
-    font-size: 24px;
-    top: 405px;
-    right: 5px;
-    color: #5ca4d6;
-}
-
-.colorbox {
-    width: 27px;
-    height: 27px;
-    background-color: black;
-    list-style: none;
-    margin: 5px;
-    right: 1px;
-    bottom: 13px;
-    position: relative;
-    float: left;
-}
-
-.colorbox2 {
-    width: 27px;
-    height: 27px;
-    background-color: black;
-    list-style: none;
-    margin: 5px;
-    right: 40px;
-    bottom: 87px;
-    position: relative;
-    float: right;
-}
-
-#topleft {
-    background-color: #5ca4d6;
-}
-
-#topright {
+.pinkbox {
     background-color: #d583ac;
 }
 
-#bottomleft {
+.yellowbox {
     background-color: #deb17e;
 }
 
-#bottomright {
+.topleft {
+    background-color: #5ca4d6;
+}
+
+.topright {
+    background-color: #d583ac;
+}
+
+.bottomleft {
+    background-color: #deb17e;
+}
+
+.bottomright {
     background-color: #8bb992;
-}
-
-ol.shirtsizes {
-    list-style: none;
-    left: 22px;
-    position: absolute;
-    padding: 0;
-    top: -5px;
-}
-
-ol.shirtsizes li {
-    padding: 3px 0;
-}
-
-ol.shirtsizes2 li {
-    padding: 12px 0;
-}
-
-ol.shirtsizes2 {
-    font-size: 12px;
-    list-style: none;
-    font-family: sans-serif;
-    color: #5ca4d6;
-    left: -18.5px;
-    top: 0px;
-    position: relative;
-}
-
-.icon-t-shirt {
-    color: #5ca4d6;
-    font-size: 28px;
-}
-
-.hover {
-    background-color: red;
-    width: 84px;
-    height: 220px;
 }
